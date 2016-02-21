@@ -20,7 +20,7 @@ function emailChecker($email)
 	global $mysqli, $safe_email, $check_res;
 
 	// check that email doesn't already exist
-	$safe_email = mysqli_real_excape_string($mysqli, $email);
+	$safe_email = mysqli_real_escape_string($mysqli, $email);
 	$check_sql = "SELECT id FROM subscribers WHERE email = '".$safe_email."'";
 	$check_res = mysqli_query($mysqli, $check_sql) or die(mysqli_error($mysqli));
 }
