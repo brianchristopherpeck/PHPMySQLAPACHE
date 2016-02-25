@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/* CSS Document */
+#Content {
+	margin:0px;	
+}
+
+#title {
+	width:96%;
+	height:6%;
+}
+
+#title a {
+	margin:0px;
+	padding:0px;
+}
+
+#titletext {
+	padding-top:0%;
+	padding-bottom:0%;
+	height:3%;	
+}
+
+#navbar {
+	width:96%;	
+	height:6.8%;
+	background-color:#4ca4fe;
+}
+
+#navbar1 {
+	width:19%;
+	margin-top:0%;
+	margin-bottom:0%;
+	margin-left:0px;
+	margin-right:0px;
+	padding-left:1%;
+	padding-bottom:5%;
+	height:40%;
+}
+
+#left {
+	margin-left:18%;	
+}
+
+#left p {
+	width:25%;	
+	padding-top:3%;
+}

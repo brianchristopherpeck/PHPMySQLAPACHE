@@ -1,0 +1,456 @@
+"Content-type: text/css"
+
+
+ul,ol,li,h1,h2,h3,h4,h5,h6,p,pre,form,body,html,blockquote,fieldset,input,table,tr,td { margin:0; padding:0 }
+ul,ol { list-style:none }
+a img,:link img,:visited img { border:none; font-weight:normal; }
+address { font-style:normal }
+
+
+/* structure */
+html,body {height:100%; margin:0; padding:0; font-size:small; }
+ 
+	body {
+		line-height:1.5em;
+		font-size:16px;
+		background-color:#FFFFFF repeat-x 0px 0px;
+	}
+	
+	
+	#Content {
+		font-family:Helvetica, sans-serif;
+		position:relative;
+		float:left;
+		background-color:#ffffff;
+		width:100%;
+		margin: 0px auto 0px auto;
+		height:1024px;	
+	}
+	
+	#title {
+		font-family:Helvetica, sans-serif;
+		position:relative;
+		float:left;
+		width:20%;
+		height:105px;
+		background-color:#003F7F;	
+	}
+	
+	#title a:hover{
+		font-family:Helvetica, sans-serif;
+		color:#fff;
+	}
+	
+	#titletext {
+		position:relative;
+		width:100%;
+		padding-top:10%;
+		padding-left:10%;
+		float:left;
+		
+	}
+	
+	#titletext a {
+		color:#fff;	
+	}
+	
+	#titletext p,h1,a, a:hover, a:visited {
+		color:#fff;
+		text-decoration:none;
+	}
+	
+	#login {
+		font-family:Helvetica, sans-serif;
+		width:320px;
+		height:148px;
+		float:left;
+		margin-right:8px;
+		
+	}
+	
+	#login a {
+		font-family:Helvetica, sans-serif;
+		text-decoration:none;
+		color:#585858;
+		font-size:12px;
+	}
+	#login p {
+		font-family:Helvetica, sans-serif;
+		color:#585858;
+		font-size:12px;
+	}
+	#login submit{
+		text-align:center;
+	}
+
+	#login td{
+	
+		color:#585858;
+		font-size:12px;
+	}
+	
+	#login form a{
+		font-family:Helvetica, sans-serif;
+		color:#585858;
+		font-size:12px;
+	}
+	
+	#navbar {
+		font-family:Helvetica, sans-serif;
+		float:left;
+		height:105px;
+		width:80%;
+		color:#fff;
+		background-color:#003F7F;
+	}
+	
+	#navbar1 {
+		float:left;
+		margin-top:50px;
+		margin-right:1px;
+		padding-top:19px;
+		padding-bottom:15px;
+		font-family:Helvetica, sans-serif;
+		height:20%;
+		width:19%;
+		color:#fff;
+		position:relative;
+		font-family:Helvetica, sans-serif;
+		font-size:16px;
+		text-align:center;
+		background-color:#4ca4fe;
+		
+	}
+	
+	#navbar1  a{
+		font-family:Helvetica, sans-serif;
+		text-decoration:none;
+		list-style-type:none;
+		color:#fff;		
+	}
+	
+	#navbar1 a:hover {
+		font-family:Helvetica, sans-serif;
+		font-weight:700;
+	}
+	
+	
+	#left {
+		font-family:Helvetica, sans-serif;
+		float:left;
+		overflow:auto;
+		width:80%;
+		height:auto;
+		margin-top:2%;
+		margin-left:16%;
+		background-color:#ffffff;
+	}
+	
+	#left p {
+		font-family:Helvetica, sans-serif;
+		position:relative;
+		float:left;
+		margin-left:10px;
+		font-size:16px;
+		padding:3px;
+		padding-top:4%;
+		padding-bottom:4%;
+		color:#fff;
+		height:50px;
+		width:27%;
+		background-color:#4ca4fe;
+		border-bottom: 2px solid #000;
+		text-align:center;
+	}
+	
+	#left a {
+		font-family:Helvetica, sans-serif;
+		text-decoration:none;
+		z-index:200;
+		color:#fff;
+		font-size:16px;
+	}	
+	
+	#left a.active {
+		font-family:Helvetica, sans-serif;
+		color:#fff;
+		font-size:18px;
+		font-weight:bold;	
+	}
+	
+	#left a.inactive {
+		font-family:Helvetica, sans-serif;
+		color:#fff;
+	}
+	#left a:hover{
+		font-family:Helvetica, sans-serif;
+		font-weight:700;
+	}
+	
+	#headerPhoto {
+		position:relative;
+		float:left;
+		overflow:hidden;
+		width:70%;
+		height:auto;
+		margin-top:2%;
+		margin-left:16%;
+	}
+	
+	#main {
+		font-family:Helvetica, sans-serif;
+		position:relative;
+		float:left;
+		overflow:auto;
+		width:60%;
+		height:auto;
+		margin-top:5%;
+		margin-left:21%;
+		margin-right:19%;
+		background-color:#F8F8F8;
+		border-left:10px solid #4ca4fe;
+		border-bottom:10px solid #4ca4fe;
+		
+	
+	}
+	
+	#main a {
+		font-family:Helvetica, sans-serif;
+		margin-left:3%;
+		text-decoration:none;
+		color:#000;
+		font-size:18px;
+	}
+	#main a:hover{
+		font-family:Helvetica, sans-serif;
+		font-weight:700;
+	}
+	
+	#main  h1 {
+		font-family:Helvetica, sans-serif;
+		font-size:30px;
+		margin:3%;
+		color:#000;
+	}
+	
+	#main h2 {
+		font-family:Helvetica, sans-serif;
+		font-size:25px;
+		margin:3%;
+		color:#000;
+	}
+	
+	#main h3 {
+		font-family:Helvetica, sans-serif;
+		font-size:20px;
+		margin:3%;
+		color:#585858;
+	}
+	
+	#main h4 {
+		font-family:Helvetica, sans-serif;
+		font-size:18px;
+		margin:3%;
+		color:#000;
+	}
+	
+	#main p {
+		font-family:Helvetica, sans-serif;
+		color:#000;
+		font-size:18px;
+	}
+	#main submit{
+		font-family:Helvetica, sans-serif;
+		text-align:center;
+	}
+	#main form {
+		font-family:Helvetica, sans-serif;
+		margin-left:2.5%;
+	}
+	
+	#main form tr {
+		margin:0px;	
+	}
+	
+	#main form td {
+		margin:0px;	
+	}
+	
+	#main form table {
+		margin:0px;	
+	}
+	
+	#main td{
+		font-family:Helvetica, sans-serif;
+		color:#000;
+		font-size:18px;
+	}
+	
+	#main form a{
+		font-family:Helvetica, sans-serif;
+		color:#000;
+		font-size:18px;
+		margin:0px;
+	}
+	
+	#post {
+		font-family:Helvetica, sans-serif;
+		margin:0px;
+		color:#000;
+		font-size:18px;
+		border:1px solid #FFFFFF;
+		
+	}
+	#post p {
+		font-family:Helvetica, sans-serif;
+		color:#000;
+		font-size:18px;
+	}
+	#comment1 {
+		font-family:Helvetica, sans-serif;
+		border:1px solid #FFFFFF;
+		color:#000;
+		font-size:18px;
+		
+	}
+	#comment1 p {
+		font-family:Helvetica, sans-serif;
+		color:#000;
+		font-size:18px;
+	}
+	
+	#form {
+		font-family:Helvetica, sans-serif;
+		margin-left:3%;
+		color:#000;
+		font-size:16px;
+	}
+	
+
+	
+	#ad {
+		font-family:Helvetica, sans-serif;
+		margin-left:5%;
+	}
+	
+	#foot {
+		font-family:Helvetica, sans-serif;
+		float:left;
+		width:100%;
+		height:30px;
+		border-top:solid 1px #cccccc;
+		border-bottom:solid 1px #cccccc;
+		margin:3%;
+
+	}
+	
+	#foot p {
+		font-family:Helvetica, sans-serif;
+		display:inline;
+		padding-bottom:2px;
+	}
+	
+	#foot a {
+		font-family:Helvetica, sans-serif;
+		margin-left:5%;
+		padding-bottom:2px;
+		color:gray;
+		text-decoration:none;
+		font-size:10px;
+	}
+	
+	#foot a:hover{
+		font-family:Helvetica, sans-serif;
+		color:black;
+	}
+	
+	#footlinks {
+		font-family:Helvetica, sans-serif;
+		height:18px;
+		width:70%;
+		text-align:center;
+		margin-top:2px;
+		margin-left:12%;
+	}
+	
+	#name {
+		font-family:Helvetica, sans-serif;
+		background-color:#ffffff;
+	}
+	#subject {
+		font-family:Helvetica, sans-serif;
+		background-color:#ffffff;
+	}
+	#entry {
+		font-family:Helvetica, sans-serif;
+		background-color:#ffffff;
+	}
+	#comment {
+		font-family:Helvetica, sans-serif;
+		background-color:#ffffff;
+	}
+
+	#exentry {
+		font-family:Helvetica, sans-serif;
+		width:696px;
+		height:900px;
+	}
+	
+	#exentry1 {
+		font-family:Helvetica, sans-serif;
+		float:left;
+		width:298px;
+		height:400px;
+		
+	}
+	
+	#exentry2 {
+		font-family:Helvetica, sans-serif;
+		float:left;
+		width:298px;
+		height:400px;
+	}
+	
+	#exphoto1 {
+		font-family:Helvetica, sans-serif;
+		float:left;
+		width:198px;
+		height:400px;
+	}
+	
+	#exphoto2 {
+		font-family:Helvetica, sans-serif;
+		float:left;
+		width:198px;
+		height:400px;
+	}
+
+	
+	
+	#archivelist {
+		font-family:Helvetica, sans-serif;
+		float:left;
+		width:60%;
+		height:auto;
+		margin-top:1%;
+		margin_left:3%;
+	}
+	
+	#archivelist p  {
+		font-family:Helvetica, sans-serif;
+		margin-top:5px;
+		margin-left:3%;
+		color:#000;
+	}
+	
+	#archivelist p a {
+		font-family:Helvetica, sans-serif;
+		margin-top:0px;
+		margin-left:0px;
+		color:#000;
+	}
+	
+	#archivelist a:hover {
+		font-family:Helvetica, sans-serif;
+		font-weight:700;
+	}
