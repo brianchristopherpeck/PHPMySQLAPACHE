@@ -60,7 +60,7 @@ ob_start();
 		public function DisplayStyles()
 		{
 ?>
-			<link rel='stylesheet' type='text/css' href='style.css'/></style>
+			<link rel='stylesheet' type='text/css' href='style.css'/>
     		<link rel='stylesheet' type='text/css' media='only screen and (min-width:501px) and (max-width:1150px)' href='style_medium.css'/>
     		<link rel='stylesheet' type='text/css' media='only screen and (min-width:50px) and (max-width:500px)' href='style_small.css'/>
     		<meta name="viewport" content="width=device-width, maximum-scale=1.0, minumum-scale=1.0, initial-scale=1.0"/>
